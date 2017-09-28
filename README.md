@@ -12,6 +12,12 @@ Each chant is encoded in [gabc][gregorio] notation from the _Gregorian Missal_, 
 
 This project is far from complete, and contributions are more than welcome.
 
+# Resources
+
+* [The Gregorio Project][gregorio] - Gregorian chant notation and typesetting tools
+* [Illuminare Score Editor](http://dev.illuminarepublications.com/gregorio/) - web app for writing and editing gabc
+* [Corpus Christi Watershed](http://www.ccwatershed.org/) - reflections on the liturgy and many resources for the Traditional Latin Mass
+
 # Licensing
 
 The chants in this repository are public domain, but they are sacred and ancient, and therefore should be used with reverence.
