@@ -80,15 +80,15 @@ verseF = \lyricmode {
 }
 
 \paper {
-  %#(set-paper-size "letter")
+  #(set-paper-size "letter")
 
   %the following removes everything but the music for engraving as an EPS to include in other programs
-  indent = #0
-  line-width = 7.5\in
-  oddFooterMarkup = ##f
-  oddHeaderMarkup = ##f
-  bookTitleMarkup = ##f
-  scoreTitleMarkup = ##f
+  %indent = #0
+  %line-width = 7.5\in
+  %oddFooterMarkup = ##f
+  %oddHeaderMarkup = ##f
+  %bookTitleMarkup = ##f
+  %scoreTitleMarkup = ##f
 }
 
 \header {
@@ -126,50 +126,50 @@ verseF = \lyricmode {
 }
 
 
-%\markup {
-%  \vspace #3
-%  \teeny
-%  \fill-line {
-%    \column {
-%      \line { Magnificat anima mea Dominum, }
-%      \line { et exsultavit spiritus meus, in Deo salvatore meo, }
-%      \line { quia respexit humilitatem ancillæ suae. }
-%      \line { Ecce enim ex hoc beatam me dicent omnes generationes, }
-%      \line { quia fecit mihi magna, qui potens est, et sanctum nomen eius, }
-%      \line { et misericordia eius in progenies et progenies timentibus eum. }
-%      \line { Fecit potentiam in brachio suo, }
-%      \line { dispersit superbos mente cordis sui; }
-%      \line { deposuit potentes de sede }
-%      \line { et exaltavit humiles; }
-%      \line { esurientes implevit bonis }
-%      \line { et divites dimisit inanes. }
-%      \line { Suscepit Israel puerum suum, }
-%      \line { recordatus misericordiæ, }
-%      \line { sicut locutus est ad patres nostros, }
-%      \line { Abraham et semini eius in sæcula. }
-%      \line { Gloria Patri, et Filio, et Spiritui Sancto. }
-%      \line { Sicut erat in principio, et nunc, et semper, et in sæcula sæculorum. Amen. }
-%    }
-%    \hspace #2
-%    \column \italic {
-%      \line { My soul proclaims the greatness of the Lord, }
-%      \line { and my spirit rejoices in God my Savior }
-%      \line { for he has looked with favor on his lowly servant. }
-%      \line { From this day all generations will call me blessed: }
-%      \line { The Almighty has done great things for me, and holy is his Name. }
-%      \line { He has mercy on those who fear him in every generation. }
-%      \line { He has shown the strength of his arm, }
-%      \line { he has scattered the proud in their conceit. }
-%      \line { He has cast down the mighty from their thrones, }
-%      \line { and has lifted up the lowly. }
-%      \line { He has filled the hungry with good things, }
-%      \line { and the rich he has sent away empty. }
-%      \line { He has come to the help of his servant Israel }
-%      \line { for he has remembered his promise of mercy, }
-%      \line { the promise he made to our fathers, }
-%      \line { to Abraham and his children for ever. }
-%      \line { Glory to the Father, and to the Son, and to the Holy Spirit: }
-%      \line { as it was in the beginning, is now, and will be forever. Amen. }
-%    }
-%  }
-%}
+\markup {
+  \vspace #3
+  \teeny
+  \fill-line {
+    \column {
+      \line { Magnificat anima mea Dominum, }
+      \line { et exsultavit spiritus meus, in Deo salvatore meo, }
+      \line { quia respexit humilitatem ancillæ suæ. }
+      \line { Ecce enim ex hoc beatam me dicent omnes generationes, }
+      \line { quia fecit mihi magna, qui potens est, et sanctum nomen eius, }
+      \line { et misericordia eius in progenies et progenies timentibus eum. }
+      \line { Fecit potentiam in brachio suo, }
+      \line { dispersit superbos mente cordis sui; }
+      \line { deposuit potentes de sede }
+      \line { et exaltavit humiles; }
+      \line { esurientes implevit bonis }
+      \line { et divites dimisit inanes. }
+      \line { Suscepit Israel puerum suum, }
+      \line { recordatus misericordiæ suæ, }
+      \line { sicut locutus est ad patres nostros, }
+      \line { Abraham et semini eius in sæcula. }
+      \line { Gloria Patri, et Filio, et Spiritui Sancto. }
+      \line { Sicut erat in principio, et nunc, et semper, et in sæcula sæculorum. Amen. }
+    }
+    \hspace #2
+    \column \italic {
+      \line { My soul proclaims the greatness of the Lord, }
+      \line { and my spirit rejoices in God my Savior }
+      \line { for he has looked with favor on his lowly servant. }
+      \line { From this day all generations will call me blessed: }
+      \line { The Almighty has done great things for me, and holy is his Name. }
+      \line { He has mercy on those who fear him in every generation. }
+      \line { He has shown the strength of his arm, }
+      \line { he has scattered the proud in their conceit. }
+      \line { He has cast down the mighty from their thrones, }
+      \line { and has lifted up the lowly. }
+      \line { He has filled the hungry with good things, }
+      \line { and the rich he has sent away empty. }
+      \line { He has come to the help of his servant Israel }
+      \line { for he has remembered his promise of mercy, }
+      \line { the promise he made to our fathers, }
+      \line { to Abraham and his children for ever. }
+      \line { Glory to the Father, and to the Son, and to the Holy Spirit: }
+      \line { as it was in the beginning, is now, and will be forever. Amen. }
+    }
+  }
+}
