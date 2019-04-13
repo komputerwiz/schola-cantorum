@@ -1,0 +1,61 @@
+\documentclass[10pt]{worship}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\usepackage{fontspec}
+\usepackage[autocompile]{gregoriotex}
+%\usepackage[utf8]{inputenc}
+
+\begin{document}
+  \title{\Huge Worship Aid Template}
+  \date{\today}
+  \maketitle
+
+  % Mass propers and ordinaries
+
+  \section*{Introit}
+  \gregorioscore{00-introit}
+  \vspace{2em}
+  \gregorioscore{01-gloria-patri}
+
+  \section*{Kyrie}
+  \gregorioscore{02-kyrie}
+
+  \section*{Gloria}
+  \gregorioscore{03-gloria}
+
+  \section*{Gradual}
+  \gregorioscore{04-gradual}
+
+  \section*{Alleluia}
+  \gregorioscore{05-alleluia}
+
+  \section*{Offertory}
+  \gregorioscore{06-offertory}
+
+  \section*{Sanctus}
+  \gregorioscore{07-sanctus}
+
+  \section*{Agnus Dei}
+  \gregorioscore{08-agnus-dei}
+
+  \section*{Communion}
+  \gregorioscore{09-communion}
+
+  \section*{Ite Missa Est}
+  \gregorioscore{10-ite-missa-est}
+
+  \newpage
+
+  % sample inclusion of another tex file
+  \section*{Salve Regina}
+  \gregorioscore{11-salve-regina}
+  \vspace{1em}
+  \input{11-salve-regina-response}
+
+  % sample inclusion of a lilypond score
+  \section*{Magnificat}
+  \lilypondfile{20-magnificat.ly}
+\end{document}
+
