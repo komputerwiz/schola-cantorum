@@ -50,3 +50,4 @@
 # gregoriotex
 *.gaux
 *.gtex
+*.glog
