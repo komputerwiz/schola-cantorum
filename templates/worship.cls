@@ -2,7 +2,7 @@
 % based on the template provided at:
 % https://en.wikibooks.org/wiki/LaTeX/Creating_Packages#Creating_your_own_class
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{worship}[2017/09/28]
+\ProvidesClass{worship}[2019/04/13]
 
 % options
 %\DeclareOption{optname}{ \relax }
@@ -39,6 +39,8 @@
 \setlength{\parindent}{0em}
 \setlength{\parskip}{0.5em}
 
+%% ENVIRONMENTS
+
 % "do the red"
 \newenvironment{rubric}{%
   \color{red}%
@@ -70,6 +72,8 @@
   \par%
 }
 
+%% COMMANDS
+
 % titles are kinda like rubric
 \renewcommand\section{\@startsection {section}{1}{\z@}%
                                    {-3.5ex \@plus -1ex \@minus -.2ex}%
@@ -81,7 +85,10 @@
                                      {\normalfont\large\color{red}\MakeUppercase}}
 
 % interlinear translation styles
-\newcommand{\tr}[1]{\color{gray}\it #1}
+\newcommand{\tr}[1]{\textit{\color{gray} #1}}
+
+% easy shorthand for small-caps Lord
+\newcommand{\Lord}{\textsc{Lord}}
 
 % macros for multi-verse (litany) style gregorio
 % see http://gregorio-project.github.io/tips/litany.html
