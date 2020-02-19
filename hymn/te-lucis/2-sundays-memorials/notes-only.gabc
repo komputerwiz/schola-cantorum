@@ -1,0 +1,17 @@
+name: Te Lucis Ante Terminum;
+user-notes: In Dominicis et Memoriis per Annum;
+commentary: ;
+annotation: VIII;
+centering-scheme: english;
+%fontsize: 9;
+%spacing: vichi;
+%font: OFLSortsMillGoudy;
+%width: 5.5;
+%height: 8.5;
+%%
+(c4)
+(g)(i')(h)(j)(j)(j')(i)(h_) (,)
+(h)(j')(j)(j)(g)(h')(g)(f.) (;)
+(h)(h')(g)(j)(i)(h')(g)(hih_1') (,)
+(h)(h')(g)(f)(g)(h')(g)(g.) (::)
+(ghg)(fg..) (::)

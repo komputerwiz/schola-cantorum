@@ -1,0 +1,17 @@
+name: Te Lucis Ante Terminum;
+user-notes: In Feriis per Annum;
+commentary: ;
+annotation: VIII;
+centering-scheme: english;
+%fontsize: 9;
+%spacing: vichi;
+%font: OFLSortsMillGoudy;
+%width: 5.5;
+%height: 8.5;
+%%
+(c4)
+(h)(j')(j)(j)(j)(k')(j)(i_) (,)
+(h)(h')(h)(h)(h)(i')(h)(g.) (;)
+(i)(h')(g)(g)(f)(g')(h)(h_) (,)
+(j)(j')(j)(j)(h)(i')(h)(g.) (::)
+(ghg)(fg..) (::)

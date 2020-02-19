@@ -1,0 +1,17 @@
+name: Te Lucis Ante Terminum;
+user-notes: In Tempore Paschale, in Dominicis et in Festis (excetpis Festis B. M. V.);
+commentary: ;
+annotation: VIII;
+centering-scheme: english;
+%fontsize: 9;
+%spacing: vichi;
+%font: OFLSortsMillGoudy;
+%width: 5.5;
+%height: 8.5;
+%%
+(c4)
+(g)(g')(e)(g)(h)(i')(j)(h_) (,)
+(g)(i')(h)(j)(g)(hi)(i)(i.) (;)
+(h)(j')(k)(ih)(j)(i')(j)(hvGF'_) (,)
+(h)(hg)(j)(ij)(h)(g)(fg)(g.) (::)
+(ghg)(fg..) (::)

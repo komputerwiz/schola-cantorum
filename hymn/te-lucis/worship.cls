@@ -1,0 +1,1 @@
+../../templates/worship.cls

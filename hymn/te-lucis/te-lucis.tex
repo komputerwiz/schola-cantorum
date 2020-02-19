@@ -1,0 +1,77 @@
+\documentclass[10pt]{worship}
+
+\geometry{letterpaper,margin=0.75in}
+
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{yfonts}
+
+\gresetlastline{justified}
+\setlength{\parskip}{0em}
+\titlespacing\section{0pt}{8pt}{0pt}
+
+\newcommand{\VersesA}{%
+  \begin{nstabbing}%
+    \>Te \>cor-\>da \>nos-\>tra \>sóm-\>ni-\>ent, \>%
+    \>Te \>per \>so-\>pó-\>rem \>sén-\>ti-\>ant, \\%
+    \>Vi-\>tam \>sa-\>lú-\>brem \>trí-\>bu-\>e, \>%
+    \>Nos-\>trum \>ca-\>ló-\>rem \>ré-\>fi-\>ce, \\%
+    \>Præ-\>sta, \>Pa-\>ter, \>om-\>ní-\>po-\>tens, \>%
+    \>Per \>Ie-\>sum \>Chri-\>stum \>Dó-\>mi-\>num,%
+  \end{nstabbing}%
+}
+
+\newcommand{\VersesB}{%
+  \begin{nstabbing}%
+    \>Tu-\>ám-\>que \>sem-\>per \>gló-\>ri-\>am \>%
+    \>Vi-\>ci-\>na \>lu-\>ce \>con-\>ci-\>nant. \\%
+    \>Tæ-\>tram \>no-\>ctis \>ca-\>lí-\>gi-\>nem \>%
+    \>Tu-\>a \>co-\>lús-\>tret \>clá-\>ri-\>tas. \\%
+    \>Qui \>te-\>cum \>in \>per-\>pé-\>tu-\>um \>%
+    \>Re-\>gnat \>cum \>San-\>cto \>Spí-\>ri-\>tu. \> \>A-\>men.%
+  \end{nstabbing}%
+}
+
+\begin{document}
+  \begin{center}{\Huge Te Lucis Ante Terminum}\end{center}
+
+  \gresetinitiallines{0}
+  \grechangestaffsize{14}
+
+  \section*{Ferial}
+  \gregorioscore{1-ferial/line1}\VersesA
+  \gregorioscore{1-ferial/line2}\VersesB
+
+  \section*{Sundays and Memorials}
+  \gregorioscore{2-sundays-memorials/line1}\VersesA
+  \gregorioscore{2-sundays-memorials/line2}\VersesB
+
+  \section*{Feasts}
+  \gregorioscore{3-feasts/line1}\VersesA
+  \gregorioscore{3-feasts/line2}\VersesB
+
+  \clearpage
+
+  \section*{Feasts of the Blessed Virgin Mary}
+  \gregorioscore{5-mary/line1}\VersesA
+  \gregorioscore{5-mary/line2}\VersesB
+
+  \section*{Advent}
+  \gregorioscore{6-advent/line1}\VersesA
+  \gregorioscore{6-advent/line2}\VersesB
+
+  \section*{Christmas}
+  \gregorioscore{7-christmas/line1}\VersesA
+  \gregorioscore{7-christmas/line2}\VersesB
+
+  \clearpage
+
+  \section*{Lent}
+  \gregorioscore{8-lent/line1}\VersesA
+  \gregorioscore{8-lent/line2}\VersesB
+
+  \section*{Easter}
+  \gregorioscore{4-easter/line1}\VersesA
+  \gregorioscore{4-easter/line2}\VersesB
+\end{document}

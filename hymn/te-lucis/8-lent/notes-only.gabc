@@ -1,0 +1,17 @@
+name: Te Lucis Ante Terminum;
+user-notes: Quadragesimæ per hebdomadas I, III, et V;
+commentary: ;
+annotation: II;
+centering-scheme: english;
+%fontsize: 9;
+%spacing: vichi;
+%font: OFLSortsMillGoudy;
+%width: 5.5;
+%height: 8.5;
+%%
+(f3)
+(g)(h)(fe)(f)(g)(h')(f)(f_1') (,)
+(e)(f')(h)(g)(e)(f')(h)(g.) (;)
+(h)(i')(h)(g)(fg)(h')(f)(f_1') (,)
+(g)(h)(gvFE)(f)(g)(h')(f)(f.) (::)
+(fgf)(ef..) (::)
