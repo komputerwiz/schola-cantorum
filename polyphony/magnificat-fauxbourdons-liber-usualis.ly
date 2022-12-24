@@ -1,4 +1,4 @@
-\version "2.19.64"
+\version "2.18.2"
 
 intone = {
   \once \override LyricText.self-alignment-X = #-1
@@ -34,7 +34,7 @@ chant = \relative c' {
   a\breve g4 f g g( f d4.) \fullBar
   \break
   <d a' d>\breve <f a c>4 <c g' c> <f a c>4. \halfBar
-  <f a c>\breve <c g' c>4 <d f a> <g, g' bes> <g g' bes> <a f' a>( <a e' a> <d a'>4.) \doubleBar
+  <f a c>\breve <c g' c>4 <d f a> <g, g' bes>\>^\markup{\italic rit.} <g g' bes> <a f' a>( <a e' a> <d a'>4.)\! \doubleBar
 }
 
 verseA = \lyricmode {
@@ -100,6 +100,7 @@ verseF = \lyricmode {
 
 \score {
   \new Staff <<
+    \override DynamicLineSpanner.staff-padding = #2
     \new Voice = "melody" \chant
     \new Lyrics \lyricsto melody { \set stanza = #"1. " \verseA }
     \new Lyrics \lyricsto melody { \set stanza = #"2. " \verseB }
